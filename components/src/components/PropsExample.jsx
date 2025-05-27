@@ -1,6 +1,6 @@
 import React from 'react';
 
-const PropsExample = ({name, age}) => {
+const PropsExample = (name, age) => {
     return (
         <div>
             <h3>Hello {name}</h3>
@@ -9,4 +9,4 @@ const PropsExample = ({name, age}) => {
     );
 };
 
-export default PropsExample;    
+export default PropsExample;
