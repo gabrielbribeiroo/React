@@ -23,7 +23,7 @@ This repository contains a test project developed to practice and demonstrate kn
 
 ## About the Project
 
-This project was created for learning purposes and to experiment with the React library. It serves as a base for testing components, hooks, state management, and integration with other technologies in the React ecosystem.
+This project was created to learn and experiment with the React library. It serves as a base for testing components, hooks, state management, and integration with other technologies in the React ecosystem.
 
 ## How to Run
 
@@ -43,5 +43,10 @@ This project was created for learning purposes and to experiment with the React 
 ## Contribution
 
 Feel free to open issues or submit pull requests with suggestions and improvements.
+
+## License
+
+This project is licensed under the MIT License.  
+Feel free to use, modify, and distribute the code as needed.
 
 ---
