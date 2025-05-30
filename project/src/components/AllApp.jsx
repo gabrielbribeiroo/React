@@ -26,6 +26,11 @@ const AllApp = () => {
         }
     }
 
+    // delete task
+    const handleDelete = (id) => {
+        setAll((prevAll) => prevAll.filter((todo) => todo.id !== id));
+    };
+
     return (
         <div className='app-container'>
             <h1 className='title'>Task List</h1>
@@ -48,7 +53,12 @@ const AllApp = () => {
                 {all.map((todo) =>  (
                     <li key={todo.id} className='todo-item'>
                         {todo.text}
-                        <button className='delete-button'>Delete</button>
+                        <button 
+                            className='delete-button' 
+                            onClick={() => handleDelete(todo.id)}
+                        >
+                            Delete
+                        </button>
                     </li>
                 ))}
             </ul>
