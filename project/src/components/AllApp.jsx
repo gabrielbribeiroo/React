@@ -1,5 +1,7 @@
 import {useState} from 'react'
-import '/.AllApp.css'
+import './AllApp.css'
+
+
 
 const AllApp = () => {
     // task list
@@ -10,7 +12,7 @@ const AllApp = () => {
 
     // add task
     const handleSubmit= (e) => {
-        e.preventDefault;
+        e.preventDefault();
 
         if (inputValue.trim() !== '') {
             const newAll = {
