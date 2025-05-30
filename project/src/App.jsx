@@ -1,8 +1,10 @@
-function App() {
+import AllApp from "./components/AllApp"
 
+function App() {
     return (
-      <>
-      </>
+        <div>
+            <AllApp />
+        </div>      
     )
 }
 
